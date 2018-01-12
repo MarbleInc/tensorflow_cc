@@ -1,0 +1,13 @@
+tensorflow-cc for Debian
+-----------------------
+
+To Build:
+
+ echo "deb [arch=amd64] http://storage.googleapis.com/bazel-apt stable jdk1.8" | sudo tee /etc/apt/sources.list.d/bazel.list
+ sudo apt-get update && sudo apt-get install bazel
+
+
+https://developer.nvidia.com/cuda-downloads?target_os=Linux&target_arch=x86_64&target_distro=Ubuntu&target_version=1604&target_type=debnetwork
+
+ -- Philip Freeman <phil@unknown>  Tue, 09 Jan 2018 15:07:01 -0800
+

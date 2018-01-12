@@ -1,0 +1,20 @@
+Source: tensorflow-cc
+Priority: optional
+Maintainer: Philip Freeman <phil@marble.io>
+Build-Depends: debhelper (>=9), openjdk-8-jdk, bazel (=0.8.0), cuda, libcudnn7
+Standards-Version: 3.9.6
+Section: libs
+Homepage: https://github.com/FloopCZ/tensorflow_cc/
+
+Package: tensorflow-cc-dev
+Section: libdevel
+Architecture: any
+Depends: tensorflow-cc0 (= ${binary:Version}), ${misc:Depends}
+Description: Development files for TensorFlow C++ library
+ Development files for TensorFlow C++ library
+
+Package: tensorflow-cc0
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: TensorFlow C++ library
+ TensorFlow C++ library
